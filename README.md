@@ -4,5 +4,5 @@
 
 😏[至我的博客](https://www.cnblogs.com/WeiG/)
 
-😏[开课吧的作业](https://Kmeyel.github.io/kkb/001/index.html)
+😏[开课吧的作业](https://Kmeyel.github.io/kkb/index.html)
 

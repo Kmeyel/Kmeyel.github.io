@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css精灵练习</title>
+    <style>
+        .box {
+            width: 193px;
+            height: 439px;
+        }
+        .list {
+            width: 55px;
+            height: 89px;
+            background: url("img/icon.png") no-repeat ;
+        }
+        .list-1 {
+            background-position: 0;
+        }
+        .list-2 {
+            background-position: -55px;
+        }
+        .list-3 {
+            background-position: -110px;
+        }
+        .list-4 {
+            background-position: -165px;
+        }
+        .list-5 {
+            background-position: -220px;
+        }
+
+        .padding-1 {
+            padding-left: 0;
+        }
+        .padding-2 {
+            padding-left: 108px;
+        }
+        .padding-3 {
+            padding-left: 43px;
+        }
+        .padding-4 {
+            padding-left: 93px;
+        }
+        .padding-5 {
+            padding-left: 141px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="padding-1">
+            <div class="list list-1"></div>
+        </div>
+        <div class="padding-2">
+            <div class="list list-2"></div>
+        </div>
+        <div class="padding-3">
+            <div class="list list-3"></div>
+        </div>
+        <div class="padding-4">
+            <div class="list list-4"></div>
+        </div>
+        <div class="padding-5">
+            <div class="list list-5"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

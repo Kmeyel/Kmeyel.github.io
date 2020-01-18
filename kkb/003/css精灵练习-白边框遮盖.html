@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css精灵练习</title>
+    <style>
+        .box {
+            width: 193px;
+            height: 439px;
+        }
+        .list {
+            width: 55px;
+            height: 89px;
+            background: url("img/icon.png") no-repeat ;
+        }
+        .list-1 {
+            background-position: 0;
+        }
+        .list-2 {
+            border-left: 108px solid white;
+            background-position: -55px;
+        }
+        .list-3 {
+            border-left: 43px solid white;
+            background-position: -110px;
+        }
+        .list-4 {
+            border-left: 93px solid white;
+            background-position: -165px;
+        }
+        .list-5 {
+            border-left: 141px solid white;
+            background-position: -220px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="list list-1"></div>
+        <div class="list list-2"></div>
+        <div class="list list-3"></div>
+        <div class="list list-4"></div>
+        <div class="list list-5"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>妙味窗口</title>
+    <style>
+        .background {
+
+            width: 800px;
+            height: 800px;
+            background-color: #c3f2ff;
+            /*蓝色背景*/
+        }
+        #background-right {
+            width: 800px;
+            height: 800px;
+            background-image: url("img/background-right.png");
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            /*背景右下角*/
+            
+        }
+        #background-left {
+            width: 800px;
+            height: 800px;
+            background-image: url("img/background-left.png");
+            background-repeat: no-repeat;
+            position: relative;
+            /*背景左上角*/
+        }
+        #contens {
+            width: 500px;
+            height: 620px;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+            /*中间的内容部分*/
+        }
+        
+        #contens-001 {
+            width: 500px;
+            height: 120px;
+            background-image: url("img/content-001.gif");
+            /*内容的标题部分*/
+        }
+        .box {
+            width: 496px;
+            height: 498px;
+            border: 2px solid #a9e8f7;
+            border-top: none;
+            /*大盒子*/
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-indent: 400px;
+        }
+        #contens-002 {
+            height: 100px;
+            background-color: white;
+            border-bottom: 2px solid #ecf4fa;
+            line-height: 100px;
+            color: #26b9ff;
+            
+        }
+        #contens-003 {
+            height: 100px;
+            background-color: white;
+            border-bottom: 2px solid #ecf4fa;
+            line-height: 100px;
+            color: #b674de;
+            
+        }
+        #contens-004 {
+            height: 100px;
+            background-color: white;
+            border-bottom: 2px solid #ecf4fa;
+            line-height: 100px;
+            color: #ff664d;
+            
+        }
+        #contens-005 {
+            height: 192px;
+            background-color: white;
+            line-height: 100px;
+            color: #f9cf33;
+            
+        }
+        .list-img-2 {
+            width: 123px;
+            height: 100px;
+            background-image: url("img/mail.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .list-img-3 {
+            width: 123px;
+            height: 100px;
+            background-image: url("img/mouse.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .list-img-4 {
+            width: 123px;
+            height: 100px;
+            background-image: url("img/smile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .list-img-5 {
+            width: 123px;
+            height: 100px;
+            background-image: url("img/stars.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="background">
+        <div id="background-right">
+            <div id="background-left">
+
+                <div id="contens">
+                    <div id="contens-001"></div>
+                    <div class="box">
+                        <div id="contens-002">
+                            <div class="list-img-2">
+                                <span>+1680</span>
+                            </div>
+                        </div>
+                        <div id="contens-003">
+                            <div class="list-img-3">
+                                <span>+125</span>
+                            </div>
+                        </div>
+                        <div id="contens-004">
+                            <div class="list-img-4">
+                                <span>-125</span>
+                            </div>
+                        </div>
+                        <div id="contens-005">
+                            <div class="list-img-5">
+                                <span>-23</span>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

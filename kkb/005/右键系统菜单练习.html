@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>右键系统菜单练习</title>
+    <style>
+        .background {
+            height: 689px;
+            background: url('img/background.png') no-repeat center;
+            border: 1px solid transparent;
+            
+        }
+        .box {
+            width: 260px;
+            height: 573px;
+            background: #e15671 url("img/watermark.png") no-repeat right bottom;
+            margin: 54px auto  62px auto;
+            font:  14px "微软雅黑";
+            color: white;
+            line-height: 36px;
+
+        }
+        .list {
+            border-bottom: 1px solid #ca4d65;
+        }
+        .view {
+            height: 108px;
+            padding: 2px 0 10px;
+        }
+        .show {
+            height: 180px;
+            padding: 10px 0 10px;
+        }
+        .layout {
+            height: 36px;
+            padding: 10px 0 10px;
+        }
+        .attributes {
+            height: 72px;
+            padding: 10px 0 10px;
+        }
+        .operating {
+            height: 72px;
+            border-bottom: none;
+            padding: 10px 0 19px;
+        }
+
+        .tag {
+            background: url('img/tag.png') no-repeat 20px 14px;
+        }
+        .menu {
+            background: url('img/menu.png') no-repeat 232px 12px;
+        }
+        .round{
+            background: url('img/round.png') no-repeat 20px 11px;
+        }
+        /*行的三种样式*/
+        
+        .back {
+            padding-left: 48px;
+        }
+        .back:hover {
+            background-color: #e7788d;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="box">
+            <div class="list view">
+                <div class="back menu">工具栏（T）</div>
+                <div class="back tag">状态栏（B）</div>
+                <div class="back menu">浏览器栏（E）</div>
+            </div>
+            <div class="list show">
+                <div class="back round">缩略图（H）</div>
+                <div class="back">平铺（S）</div>
+                <div class="back">图标（N）</div>
+                <div class="back">列表（L）</div>
+                <div class="back">详细信息（D）</div>
+            </div>
+            <div class="list layout">
+                <div class="back menu">排列图标（I）</div>
+            </div>
+            <div class="list attributes">
+                <div class="back">选择详细信息（C）...</div>
+                <div class="back">自定义文件夹（F）...</div>
+            </div>
+            <div class="list operating">
+                <div class="back menu">转到（O）</div>
+                <div class="back">刷新（R）</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

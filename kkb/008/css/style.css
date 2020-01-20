@@ -1,0 +1,82 @@
+body {
+    background-color: #899;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+header,.first,.second,footer {
+    margin: 0 auto;
+    width: 1920px;
+}
+header .banner {
+    height: 801px;
+    background: url("../img/bg-0.png") no-repeat;
+}
+header .title {
+    height: 649px;
+    background: url("../img/bg-1.png") no-repeat;
+}
+header article {
+    width: 340px;
+    height: 369px;
+    border: 7px solid #fff;
+    margin-left: 344px;
+    padding: 16px 0 0 26px;
+}
+header article .text-1 {
+    font: 48px/56px "微软雅黑";
+    color: #585666;
+}
+header article .text-2 {
+    font: 30px/36px "微软雅黑";
+    color: #3b3130;
+    margin-bottom: 42px;
+}
+header article .text-2 span {
+    color: #fff;
+}
+header article .text-3 {
+    width: 300px;
+    font: 18px/22px "微软雅黑";
+    color: #3b3130;
+}
+header article .text-4 {
+    width: 330px;
+    font: 12px/29px Arial;
+    color: #666;
+}
+.first header {
+    height: 377px;
+    background: url("../img/bg-2.png") no-repeat;
+    text-align: center;
+    padding: 95px 0 0 0;
+}
+.first header .text-1 {
+    font: 36px/47px "微软雅黑";
+    color: #999999;
+}
+.first header .text-1 span {
+    color: #e5bf1e;
+}
+.first header .text-2 {
+    font: 16px/23px "微软雅黑";
+    color: #999999;
+    margin-bottom: 73px;
+}
+.first header section {
+    font-size: 0;
+}
+.icon {
+    width: 102px;
+    height: 116px;
+    border: 3px solid #8f8f8f;
+    border-radius: 14px;
+    display: inline-block;
+    margin-right: 65px;
+    font: 20px/20px "微软雅黑";
+    color: #888;
+}
+.icon.last {
+    margin: 0;
+}

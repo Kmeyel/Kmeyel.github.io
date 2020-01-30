@@ -1,0 +1,52 @@
+/* 头部 */
+header .banner {
+    width: auto;
+    height: 801px;
+    background: url("../img/bg-0.png") no-repeat;
+    /* background-size: 100% 100%; */
+    /* background-size: cover; */
+    background-position: center;
+    
+}
+header .title {
+    height: 649px;
+    background: url("../img/bg-1.png") no-repeat center;
+
+}
+header .title .box {
+    width: 1920px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-left: 344px;
+    /* padding-left: 5%; */
+
+}
+header article {
+    width: 340px;
+    height: 369px;
+    border: 7px solid #fff;
+    /* margin-left: 5%; */
+    padding: 16px 0 0 26px;
+}
+header article .text-1 {
+    font: 48px/56px "微软雅黑";
+    color: #585666;
+}
+header article .text-2 {
+    font: 30px/36px "微软雅黑";
+    color: #3b3130;
+    margin-bottom: 42px;
+}
+header article .text-2 span {
+    color: #fff;
+}
+header article .text-3 {
+    width: 300px;
+    font: 18px/22px "微软雅黑";
+    color: #3b3130;
+}
+header article .text-4 {
+    width: 330px;
+    font: 12px/29px Arial;
+    color: #666;
+}

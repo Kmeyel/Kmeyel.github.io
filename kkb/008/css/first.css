@@ -1,0 +1,125 @@
+/* 内容部分-第一页 */
+.first header {
+    height: 377px;
+    background: url("../img/bg-2.png") no-repeat center;
+    text-align: center;
+    padding: 95px 0 0 0;
+}
+.first header .text-1 {
+    font: 36px/47px "微软雅黑";
+    color: #999999;
+}
+.first header .text-1 span {
+    color: #e5bf1e;
+}
+.first header .text-2 {
+    font: 16px/23px "微软雅黑";
+    color: #999999;
+    margin-bottom: 73px;
+}
+.first header section {
+    font-size: 0;
+}
+.icon {
+    width: 102px;
+    height: 116px;
+    border: 3px solid #8f8f8f;
+    border-radius: 14px;
+    display: inline-block;
+    margin-right: 65px;
+    font: 20px/20px "微软雅黑";
+    color: #888;
+}
+.icon.last {
+    margin: 0;
+}
+.first .content {
+    width: 1920px;
+    height: 1489px;
+    background-color: #dec02e;
+    /* margin: 0 auto; */
+}
+.first .content .box {
+    width: 1174px;
+    height: 1489px;
+    margin: 0 auto;
+    /* float: left; */
+    vertical-align: top;
+}
+.first .content section {
+    /* width: 1174px; */
+    height: 373px;
+    float: left;
+    /* display: inline-block; */
+    
+}
+.text-box {
+    width: 278px;
+    height: 262px;
+    float: left;
+    padding: 0 56px 0 34px;
+    color: #4a453f;
+}
+.text-box h3 {
+    width: 128px;
+    border: 2px solid #4a453f;
+    font: 24px/35px "微软雅黑";
+    padding: 0 7px;
+    display: inline-block;
+    /* margin: 0; */  
+}
+.text-box .text-1 {
+    font: 14px/28px "微软雅黑";
+    
+    margin-bottom: 22px;
+}
+.text-box .text-2 {
+    font: 16px/24px "微软雅黑";
+}  
+/* .content .box {
+    width: 1185px;
+    margin: 0 auto;
+}   */
+.content .box img {
+    margin-bottom: 16px;
+}  
+.text-box.box-1 {
+    padding-left: 405px;
+    padding-top: 37px;
+    height: 336px;
+    background: url("../img/img-1.png") no-repeat;
+}
+/* .text-box .img-right {
+    margin-left: 275px;
+}
+.text-box .text-right {
+    margin-left: 152px;
+} */
+.text-box .right-box {
+    text-align: right;
+}
+.text-box.box-2 {
+    padding-right: 410px;
+    padding-top: 93px;
+    height: 280px;
+    /* text-align: right; */
+    background: url("../img/img-2.png") no-repeat 372px 0;
+}
+.text-box.box-3 {
+    padding-left: 405px;
+    padding-top: 93px;
+    height: 280px;
+    background: url("../img/img-3.png") no-repeat;
+}
+.text-box.box-4 {
+    padding-right: 410px;
+    padding-top: 93px;
+    height: 280px;
+    background: url("../img/img-4.png") no-repeat 372px 0;
+}
+.text-box.box-5 {
+    height: 360px;
+    padding-top: 773px;
+    background: url("../img/img-5.png") no-repeat;
+    margin-top: -746px;
+}

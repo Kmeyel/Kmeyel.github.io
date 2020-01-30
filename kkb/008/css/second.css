@@ -1,0 +1,94 @@
+/* 内容部分第二页 */
+.second header {
+    height: 475px;
+    background: url("../img/bg-3.png" ) no-repeat center;
+    /* text-align: center; */
+    /* padding-left: calc(50% - 13%); */
+}
+.second header img {
+    margin-left: 730px;
+}
+
+
+/* ---------------------------------- */
+.second-box {
+    width: 1920px;
+    height: 2341px;
+    background: #1f1f21 url("../img/bg-4.png") no-repeat;
+    /* float: left; */
+    
+}
+ .second-box .content {
+    width: 1174px; 
+    margin: 0 auto;
+ }
+.cross {
+    float: left;
+    width: 1192px; 
+    
+}
+.cross-list.first {
+    width: 280px;
+    height: 497px;
+    padding-top: 51px;
+    background-color: #e8cf3e;
+}
+.cross-list.first .title {
+    width: 186px;
+    border: 3px solid black;
+    padding: 28px 20px 28px 28px;
+    font: 50px/24px "微软雅黑";
+    margin: 0 auto 65px auto;
+
+}
+.cross-list .p1 {
+    font: 18px/23px "微软雅黑";
+    color: black;
+    padding:  0 17px 0 23px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.cross-list .p2 {
+    font: 16px/24px "微软雅黑";
+    color: #666;
+    padding:  0 16px 0 23px;
+    text-align: left;
+}
+
+
+.cross-list  {
+    float: left;
+    width: 280px;
+    height: 548px;
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    background-color: #5b5b5b;
+    margin: 0 18px 26px 0;
+}
+.cross-list.last {
+    margin: 0 0 26px 0;
+}
+.cross-list figure {
+    width: 280px;
+    text-align: center;
+}
+.cross-list img {
+    margin-bottom: 27px;
+}
+.cross-list figcaption {
+    /* width: 136px; */
+    height: 34px;
+    display: inline-block;
+    border: 2px solid #e8cf3e;
+    font: 24px/34px "微软雅黑";
+    color: #e8cf3e;
+    margin: 0 0 21px 0;
+    padding: 0 6px 0 10px;
+}
+.cross-list p {
+    font: 16px/24px "微软雅黑";
+    color: #8b8b8b;
+    padding:  0 44px;
+    text-align: left;
+    /* margin-bottom: 30px; */
+}

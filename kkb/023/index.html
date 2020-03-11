@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>擦出图片</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(211, 241, 213);
+        }
+        .wrap{
+            position: relative;
+            width: 590px;
+            margin: 100px auto;
+        }
+        .wrap .con{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background: url(./img/img.jpg);
+            /* background-color: rgb(98, 133, 95); */
+            background-size: 1000% 1000%;
+        }
+        .mask{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(98, 133, 95);
+            transition: 0.5s;
+            /* display: none; */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap"></div>
+    <script src="./js/main.js"></script>
+    <!-- <script>
+        let wrap = document.querySelector('.wrap');
+        let html = '';
+        let row = -1;
+        var count=0;
+        for(let i = 0; i < 100; i++){
+            if(i%10==0) row++
+            html += `<div style="
+                        left:${(i%10)*60}px;
+                        top:${row*60}px;
+                        background-position: ${-(i%10)*50}px ${-row*50}px
+                    ">
+                    </div>`
+        }
+        wrap.innerHTML = html;
+
+        var divs=document.querySelectorAll('.wrap div');
+
+        for(var i=0; i<divs.length;i++){
+            divs[i].showImg=false;
+            divs[i].onmouseover=function(){
+                // true 、false
+                // 如果当前元素没有显示图片 count就加1
+                if(!this.showImg){
+                    count++;
+                    this.showImg=true;
+                }
+
+               
+
+               this.style.backgroundImage='url(./img.jpg)';
+
+                console.log(count)
+               if(count==100){
+                    console.log('图片显示完成！');
+                }
+            }
+        }
+
+        /* let divs = document.querySelectorAll('.wrap div');
+        divs.forEach(div => {
+            div.addEventListener('mouseover',()=>{
+                div.style.backgroundImage = 'url(./img.jpg)';
+            })
+        }); */
+
+    </script> -->
+</body>
+</html>

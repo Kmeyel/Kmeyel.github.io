@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <index class="btn" type="button" >点击此处输出结果</index>
+      
+    <div class="box">
+      <div class="arrs">
+        var arr = [ '100px', 'abc'-6, [], -98765, 34, -2, 0, '300', ,
+        function(){alert(1);}, null, document, [], true, '200px'-30,'23.45元',
+        5, Number('abc'), function(){ alert(3); }, 'xyz'-90 ];
+      </div>
+
+      <div class="screen">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <!-- <script>
+            // var arr = [
+            //   "100px",
+            //   "abc" - 6,
+            //   [],
+            //   -98765,
+            //   34,
+            //   -2,
+            //   0,
+            //   "300",
+            //   ,
+            //   function() {
+            //     alert(1);
+            //   },
+            //   null,
+            //   document,
+            //   [],
+            //   true,
+            //   "200px" - 30,
+            //   "23.45元",
+            //   5,
+            //   Number("abc"),
+            //   function() {
+            //     alert(3);
+            //   },
+            //   "xyz" - 90
+            // ];
+            // console.log(arr);
+
+            // 找到所有的数字：-98765  34 -2 0 5
+            // 可以转成数字的：100px -98765  34 -2 0 5 300 23.45元
+            // var nub = [];
+            // var nub2 = [];
+            // var maxNum = -Infinity;
+            // var nub3 = [];
+      //       for (var i = 0; i < arr.length; i++) {
+      //         /* 所有的数字 */
+      //         // if(typeof arr[i] === "number"&&!isNaN(arr[i])){
+      //         //     console.log(arr[i]);
+      //         // }
+      //         if (typeof arr[i] === "number" && arr[i] == arr[i]) {
+      //           //console.log(arr[i]);
+      //           nub.push(arr[i]);
+      //         }
+      //         /* 可以转成数字的 */
+      //         if (!isNaN(parseFloat(arr[i]))) {
+      //           nub2.push(arr[i]);
+      //         }
+      //         /* 获取最大值 */
+      //         // if(maxNum < Number(arr[i])){
+      //         //     maxNum = Number(arr[i]);
+      //         //     console.log(maxNum);
+      //         // }
+      //         !isNaN(arr[i]) && (maxNum = Math.max(maxNum, Number(arr[i])));
+
+      //         if (typeof arr[i] === "number" && isNaN(arr[i])) {
+      //           nub3.push(i);
+      //         }
+      //       }
+      //       p1.innerHTML =
+      //         "<span class='span1'>1</span>所有的数字:" +
+      //         String(nub);
+      //       p2.innerHTML =
+      //         "<span class='span2'>2</span>可以转成数字的:" +
+      //         String(nub2);
+      //       p3.innerHTML =
+      //         "<span class='span3'>3</span>最大值为:" + maxNum ;
+      //       p4.innerHTML = "<span class='span4'>4</span>NaN所在的位置是：" + String(nub3);
+      //       /*
+      //     array.push()
+      //     从数组尾部进行添加
+      // */
+
+      //       //  -10, -200, -12, -134, -10, -1500
+      </script> -->
+  </body>
+</html>

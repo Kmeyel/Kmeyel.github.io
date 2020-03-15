@@ -9,6 +9,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    
     <title>Vditor - A markdown editor written in TypeScript.</title>
     <meta name="description" content="B3log 开源社区 markdown 编辑器，使用 TypeScript 编写。支持在线预览、表情插入、at 用户提示、HTML 转换等必要功能。" />
     <meta property="og:description"
@@ -16,38 +22,49 @@
     <meta name="twitter:description" property="og:description" itemprop="description"
         content="B3log 开源社区 markdown 编辑器，使用 TypeScript 编写。支持在线预览、表情插入、at 用户提示、HTML 转换等必要功能。" />
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net/" />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png" />
-    <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png">
+    <!--<link rel="preconnect" href="https://cdn.jsdelivr.net">-->
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <!--<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png">-->
+    <!--<link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png">-->
     <meta name="copyright" content="B3log" />
     <meta http-equiv="Window-target" content="_top" />
     <meta property="og:locale" content="zh-cmn-Hans" />
     <meta property="og:title" content="Vditor - A markdown editor written in TypeScript." />
     <meta property="og:site_name" content="Blog-vditor" />
-    <meta property="og:url" content="https://hacpai.com/tag/vditor" />
+    <!--<meta property="og:url" content="https://hacpai.com/tag/vditor" />-->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:domain" content="b3log.org" />
     <meta name="twitter:title" property="og:title" itemprop="b3lig vditor"
         content="Vditor - A markdown editor written in TypeScript." />
     <meta name="twitter:site" content="@B3logOS" />
-    <meta name="twitter:url" content="https://hacpai.com/tag/vditor" />
-    <meta property="og:image" content="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png" />
-    <meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vditor@latest/dist/index.css" />
-    <script src="https://cdn.jsdelivr.net/npm/vditor@latest/dist/index.min.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <!--<meta name="twitter:url" content="https://hacpai.com/tag/vditor" />-->
+    <!--<meta property="og:image" content="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png" />-->
+    <!--<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/vditor/dist/images/logo.png" />-->
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <style>
+    .bColor {
+      background-color:#1d2125;
+      border-color: #555;
+      color: #aaa;
+      border-radius: 10px;
+    }
+      
+    </style>
 </head>
 
-<body>
+<body class="bColor">
 
     <h2>
         Vditor for you
-        <button onclick="vditor.setTheme('dark')">暗色</button>
-        <button onclick="vditor.setTheme('light')">亮色</button>
-        <button onclick="vditor.setValue('')">清空编辑器</button>
-        <input type="text" id="tex" placeholder="https://url/plan.md">
-        <button onclick="openmd()">打开文件</button>
+        <button onclick="vditor.setTheme('dark')" class="bColor">暗色</button>
+        <button onclick="vditor.setTheme('light')" class="bColor">亮色</button>
+        <button onclick="vditor.setValue('')" class="bColor">清空编辑器</button>
+        <input type="text" id="tex" placeholder="https://url/plan.md" class="bColor" >
+        <button onclick="openmd()" class="bColor">打开文件</button>
+        
+        <a href="http://we-ray.iok.la:8092/kod/index.php?editor/edit#filename=%2Fvar%2Fwww%2Fhtml%2Fplan%2Fplan.md"><button class="bColor">编辑器</button></a>
 
     </h2>
 
@@ -106,7 +123,7 @@
         
         
         var initial= "./plan.md";     //编辑器内容初始值
-        var empty =  "./lib/test.md";  //url为空时
+        var empty =  "./plan.md";  //url为空时  //./lib/test.md
     
         ww(initial);
     
@@ -124,6 +141,7 @@
             }  
         }
         
+        vditor.setTheme('dark') //black主题·
         
 
 
